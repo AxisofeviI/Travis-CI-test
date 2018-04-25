@@ -9,3 +9,12 @@ python:
  
 #command to run tests
 script: "python simple_tests.py"
+
+notifications:
+ email:
+  recipients:
+   - LundbergMJ1@gcc.edu
+   - bristerjones7@gmail.com
+  on_success: never #default: change
+  on failure: always #default: always
+  
